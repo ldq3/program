@@ -1,0 +1,16 @@
+[windows]
+commands = [
+    ' '
+]
+
+[windows.links]
+original = 'link'
+
+[linux]
+commands = [
+    ' '
+]
+
+[linux.links]
+"settings.json" = '~/.vscode-server/data/Machine/settings.json'
+workspaces = '~/.vscode-server/data/User/workspaces'

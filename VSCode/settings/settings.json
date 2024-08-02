@@ -1,0 +1,12 @@
+{
+    "workspaceSidebar.rootFolders": [
+
+        
+        {
+            "path": "~/.vscode-server/data/User/workspaces/"
+        }
+    ],
+    "projectManager.git.baseFolders": [
+        "~/private/project"
+    ]
+}

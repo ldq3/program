@@ -1,0 +1,14 @@
+{
+    "extensions": {
+        "recommendations": [
+            "sketchbuch.vsc-workspace-sidebar",
+            "donjayamanne.git-extension-pack",
+            "mhutchie.git-graph",
+        ],
+    },
+
+    "settings": {},
+    
+    "folders": [
+    ],
+}

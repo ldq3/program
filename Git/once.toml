@@ -1,0 +1,15 @@
+[windows]
+commands = [
+    ' '
+]
+
+[windows.links]
+original = 'link'
+
+[linux]
+commands = [
+    ' '
+]
+
+[linux.links]
+user_config = '~/.gitconfig'

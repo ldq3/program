@@ -1,0 +1,25 @@
+{
+	"extensions": {
+		"recommendations": [
+			"1yib.rust-bundle",
+			"tamasfe.even-better-toml"
+		]
+	},
+
+	"settings": {
+		"debug.allowBreakpointsEverywhere": true
+	},
+
+	"folders": [
+		{
+			"path": "../../../../private/project/UART_driver"
+		},
+		{
+			"path": "../../../../private/project/linux_raspberrypi"
+		},
+		{
+			"path": "../../../../private/project/cicv-r4l-3-ldq3/src_e1000"
+		}
+	],
+
+}
