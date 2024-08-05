@@ -1,0 +1,40 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoGuessEncoding": true,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "task.allowAutomaticTasks": "on",
+    "workspaceSidebar.rootFolders": [
+        {
+            "path": "~\\AppData\\Roaming\\Code\\User\\workspaces"
+        }
+    ],
+    "remote.autoForwardPortsSource": "hybrid",
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+    "editor.fontFamily": "Consolas, 'MesloLGM Nerd Font', 'Courier New', monospace",
+    "projectManager.git.baseFolders": [
+        "D:\\private\\my_project",
+        "D:\\private\\cloned_project"
+    ],
+    "remote.extensionKind": {
+        "alefragnani.project-manager": [
+            "workspace"
+        ],
+        "GitHub.copilot": [
+            "ui"
+        ],
+        "github.copilot-chat": [
+            "ui"
+        ]
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "zenMode.hideLineNumbers": false,
+    "projectManager.git.maxDepthRecursion": 1,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ]
+}
