@@ -1,14 +1,21 @@
 {
-    "extensions": {
-        "recommendations": [
-            "sketchbuch.vsc-workspace-sidebar",
-            "donjayamanne.git-extension-pack",
-            "mhutchie.git-graph",
-        ],
-    },
+	"folders": [
+	],
+	"extensions": {
+		"recommendations": [
+			// 项目
+			"ms-vscode-remote.vscode-remote-extensionpack",
+			"ms-azuretools.vscode-docker",
+			"sketchbuch.vsc-workspace-sidebar",
+			"alefragnani.project-manager",
+			"donjayamanne.git-extension-pack",
+			"gruntfuggly.todo-tree",
+			"github.copilot",
+			"github.copilot-chat",
 
-    "settings": {},
-    
-    "folders": [
-    ],
+			// 美化
+			"catppuccin.catppuccin-vsc",
+			"pkief.material-icon-theme",
+		],
+	}
 }
