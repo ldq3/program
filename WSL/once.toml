@@ -1,0 +1,15 @@
+[windows]
+commands = '''
+Write-Host "Hello Once!"
+'''
+
+[windows.links]
+'.wslconfig' = '~/.wslconfig'
+
+[linux]
+commands = '''
+echo "Hello Once!"
+'''
+
+[linux.links]
+original = 'link'
