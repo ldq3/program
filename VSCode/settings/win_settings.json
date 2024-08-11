@@ -1,0 +1,35 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoGuessEncoding": true,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "task.allowAutomaticTasks": "on",
+    
+    "remote.autoForwardPortsSource": "hybrid",
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+    "editor.fontFamily": "Consolas, 'MesloLGM Nerd Font', 'Courier New', monospace",
+
+    "remote.extensionKind": {
+        "alefragnani.project-manager": [
+            "workspace"
+        ],
+        "GitHub.copilot": [
+            "ui"
+        ],
+        "github.copilot-chat": [
+            "ui"
+        ]
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "zenMode.hideLineNumbers": false,
+    "projectManager.git.maxDepthRecursion": 1,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "editor.lineNumbers": "relative",
+    "json.schemaDownload.enable": false
+}

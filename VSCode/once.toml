@@ -1,0 +1,26 @@
+[windows]
+commands = '''
+Write-Host "Hello Once!"
+'''
+
+[windows.links]
+"win_settings.json" = '~/AppData/Roaming/Code/User/settings.json'
+
+snippets = '~/AppData/Roaming/Code/User/snippets'
+
+"keybindings.json" = '~/AppData/Roaming/Code/User/keybindings.json'
+
+"workspaces/main.code-workspace" = '~/AppData/Roaming/Code/User/workspaces/main.code-workspace'
+"workspaces/Rust.code-workspace" = '~/AppData/Roaming/Code/User/workspaces/Rust.code-workspace'
+"workspaces/Python.code-workspace" = '~/AppData/Roaming/Code/User/workspaces/Python.code-workspace'
+"workspaces/TypeScript.code-workspace" = '~/AppData/Roaming/Code/User/workspaces/TypeScript.code-workspace'
+"workspaces/LaTex.code-workspace" = '~/AppData/Roaming/Code/User/workspaces/LaTex.code-workspace'
+
+[linux]
+commands = '''
+echo "Hello Once!"
+'''
+
+[linux.links]
+"settings.json" = '~/.vscode-server/data/Machine/settings.json'
+workspaces = '~/.vscode-server/data/User/workspaces'
