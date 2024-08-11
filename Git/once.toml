@@ -1,0 +1,15 @@
+[windows]
+commands = '''
+Write-Host "Hello Once!"
+'''
+
+[windows.links]
+user_config = '~/.gitconfig'
+
+[linux]
+commands = '''
+echo "Hello Once!"
+'''
+
+[linux.links]
+user_config = '~/.gitconfig'
