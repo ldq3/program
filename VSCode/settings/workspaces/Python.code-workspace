@@ -1,0 +1,11 @@
+{
+	"extensions": {
+		"recommendations": [
+			"donjayamanne.python-extension-pack",
+			"ms-toolsai.jupyter",
+		]
+	},
+
+	"folders": [
+	]
+}

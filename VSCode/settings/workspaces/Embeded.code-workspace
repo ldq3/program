@@ -1,0 +1,67 @@
+{
+    "extensions": {
+        "recommendations": [
+            "marus25.cortex-debug",
+            "mcu-debug.debug-tracker-vscode",
+            "mcu-debug.memory-view",
+            "mcu-debug.peripheral-viewer",
+            "mcu-debug.rtos-views",
+            "1yib.rust-bundle",
+            "zhangyue.rust-mod-generator",
+        ]
+    },
+
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "QEMU Arm stm32f1 for debugging",
+                "command": "qemu-system-gnuarmeclipse",
+                "type": "shell",
+                "args": [
+                    "-board",
+                    "BluePill",
+                    "-image",
+                    "target/thumbv7m-none-eabi/debug/${fileBasenameNoExtension}",
+                    "-s",
+                    "-S",
+                ],
+                "problemMatcher": [
+                    "$tsc"
+                ],
+                "presentation": {
+                    "reveal": "always"
+                },
+                "group": "none",
+                "options": {
+                    "cwd": "${fileWorkspaceFolder}"
+                }
+            },
+        ]
+    },
+
+    "launch": {
+        // Use IntelliSense to learn about possible attributes.
+        // Hover to view descriptions of existing attributes.
+        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Cortex Debug STM32F1",
+                "cwd": "${fileWorkspaceFolder}",
+                "executable": "target/thumbv7m-none-eabi/debug/${fileBasenameNoExtension}",
+                "request": "launch",
+                "type": "cortex-debug",
+                "runToEntryPoint": "main",
+                "servertype": "external",
+    
+                "gdbPath": "gdb-multiarch",
+                "gdbTarget": "localhost:1234"
+            }
+        ]
+    },
+
+    "folders": [
+    ],
+    "settings": {},
+}
