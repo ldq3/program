@@ -1,0 +1,15 @@
+[windows]
+commands = '''
+Write-Host "Hello Once!"
+'''
+
+[windows.links]
+"Microsoft.PowerShell_profile.ps1" = '~/OneDrive/文档/PowerShell/Microsoft.PowerShell_profile.ps1'
+
+[linux]
+commands = '''
+echo "Hello Once!"
+'''
+
+[linux.links]
+original = 'link'
