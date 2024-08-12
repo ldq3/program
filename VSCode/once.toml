@@ -24,7 +24,7 @@ echo "Hello Once!"
 [linux.links]
 "wsl_settings.json" = '~/.vscode-server/data/Machine/settings.json'
 
-"workspaces/Main.code-workspace" = '~/.vscode-server/data/User/workspaces/main.code-workspace'
+"workspaces/main.code-workspace" = '~/.vscode-server/data/User/workspaces/main.code-workspace'
 "workspaces/Rust.code-workspace" = '~/.vscode-server/data/User/workspaces/Rust.code-workspace'
 "workspaces/Python.code-workspace" = '~/.vscode-server/data/User/workspaces/Python.code-workspace'
 "workspaces/C_CPP.code-workspace" = '~/.vscode-server/data/User/workspaces/C_CPP.code-workspace'
