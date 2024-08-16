@@ -22,5 +22,11 @@ echo "Hello Once!"
 '''
 
 [linux.links]
-"settings.json" = '~/.vscode-server/data/Machine/settings.json'
-workspaces = '~/.vscode-server/data/User/workspaces'
+"wsl_settings.json" = '~/.vscode-server/data/Machine/settings.json'
+
+"workspaces/main.code-workspace" = '~/.vscode-server/data/User/workspaces/main.code-workspace'
+"workspaces/Rust.code-workspace" = '~/.vscode-server/data/User/workspaces/Rust.code-workspace'
+"workspaces/Python.code-workspace" = '~/.vscode-server/data/User/workspaces/Python.code-workspace'
+"workspaces/C_CPP.code-workspace" = '~/.vscode-server/data/User/workspaces/C_CPP.code-workspace'
+"workspaces/Embeded.code-workspace" = '~/.vscode-server/data/User/workspaces/Embeded.code-workspace'
+"workspaces/Typst.code-workspace" = '~/.vscode-server/data/User/workspaces/Typst.code-workspace'
