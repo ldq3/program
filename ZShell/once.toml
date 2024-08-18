@@ -1,17 +1,17 @@
 [windows]
-commands = [
-    ' '
-]
+commands = '''
+Write-Host "Hello Once!"
+'''
 
 [windows.links]
 original = 'link'
 
 [linux]
-commands = [
-    'sudo apt install zsh ',
-    'chsh -s /bin/zsh ',
-    'bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)" '
-]
+commands = '''
+sudo apt install zsh
+chsh -s /bin/zsh
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+'''
 
 [linux.links]
 ".zshrc" = '~/.zshrc'
