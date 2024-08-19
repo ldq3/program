@@ -1,0 +1,14 @@
+{
+    "workspaceSidebar.rootFolders": [
+        {
+            "path": "~\\AppData\\Roaming\\Code\\User\\workspaces"
+        }
+    ],
+    "projectManager.git.baseFolders": [
+        "~\\private\\project"
+    ],
+    "vscode_custom_css.imports": [
+        "file://c:/Users/34635/private/project/program/VSCode/settings/index.js",
+        "file:///c:/Users/34635/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+    ]
+}

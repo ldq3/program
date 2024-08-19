@@ -1,0 +1,1 @@
+oh-my-posh init pwsh --config '~\private\project\program\PowerShell\settings\p10k.json' | Invoke-Expression
