@@ -1,0 +1,19 @@
+#!/usr/bin/env zsh
+# mise description="download gdb source code"
+
+VERSION=15.1
+TARGET=riscv64-unknown-elf
+PREFIX=
+
+wget https://ftp.gnu.org/gnu/gdb/gdb-$VERSION.tar.xz -P $PROJECT_DIR
+
+tar -xvJf ${PROJECT_DIR}gdb-$VERSION.tar.xz -C $PROJECT_DIR
+
+rm ${PROJECT_DIR}gdb-$VERSION.tar.xz
+
+cd ${PROJECT_DIR}gdb-$VERSION
+./configure --prefix=$PREFIX --with-python=python --target=$TARGET --enable-tui=yes
+make -j$(nproc)
+make install
+
+wget https://github.com/cyrus-and/gdb-dashboard/raw/master/.gdbinit -P ~ # gdb-dashboard

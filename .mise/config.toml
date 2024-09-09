@@ -1,0 +1,4 @@
+[env]
+HOME_DIR = '/home/leap/'
+
+PROJECT_DIR = "{{env.HOME_DIR}}private/project/"
