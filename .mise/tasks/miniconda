@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-# mise description="download and install miniconda on Linux"
+# mise description="install miniconda on Linux"
 
 if [[ ! -d ~/miniconda3 ]]; then
     mkdir -p ~/miniconda3

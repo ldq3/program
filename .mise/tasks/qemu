@@ -1,0 +1,9 @@
+#!/usr/bin/env zsh
+# mise description="install qemu"
+
+# use global variable HOME_DIR PROJECT_DIR 
+VERSION=15.1
+TARGET=riscv64-unknown-elf
+PREFIX=${HOME_DIR}private/tool/qemu/${VERSION}/${TARGET}/
+
+sudo apt-get install python3-venv gcc g++ libglib2.0-0 libglib2.0-dev libpixman-1-0 libpixman-1-dev flex bison
