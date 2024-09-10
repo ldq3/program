@@ -1,19 +1,24 @@
 #!/usr/bin/env zsh
-# mise description="download gdb source code"
+# mise description="download and install gdb"
 
+# use global varibale 
 VERSION=15.1
 TARGET=riscv64-unknown-elf
-PREFIX=
+PREFIX=${HOME_DIR}private/tool/gdb/${VERSION}/${TARGET}/
 
-wget https://ftp.gnu.org/gnu/gdb/gdb-$VERSION.tar.xz -P $PROJECT_DIR
+sudo apt-get install libncurses5-dev texinfo libreadline-dev
 
-tar -xvJf ${PROJECT_DIR}gdb-$VERSION.tar.xz -C $PROJECT_DIR
-
-rm ${PROJECT_DIR}gdb-$VERSION.tar.xz
+if [[ ! -d ${PROJECT_DIR}gdb-$VERSION ]]; then 
+    wget https://ftp.gnu.org/gnu/gdb/gdb-$VERSION.tar.xz -P $PROJECT_DIR
+    tar -xvJf ${PROJECT_DIR}gdb-$VERSION.tar.xz -C $PROJECT_DIR
+    rm ${PROJECT_DIR}gdb-$VERSION.tar.xz
+fi
 
 cd ${PROJECT_DIR}gdb-$VERSION
-./configure --prefix=$PREFIX --with-python=python --target=$TARGET --enable-tui=yes
+./configure --prefix=$PREFIX --target=$TARGET --enable-tui=yes
 make -j$(nproc)
 make install
 
-wget https://github.com/cyrus-and/gdb-dashboard/raw/master/.gdbinit -P ~ # gdb-dashboard
+if [[ ! -e ${HOME_DIR}.gdbinit ]]; then 
+    wget https://github.com/cyrus-and/gdb-dashboard/raw/master/.gdbinit -P ~ # gdb-dashboard
+fi
